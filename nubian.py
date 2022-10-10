@@ -6,7 +6,7 @@ doc = fitz.open(pdf_file)
 
 toc = doc.get_toc()
 print(f"the toc {toc}")
-
+#
 page_number = 10
 page = doc[page_number]  # the short form
 print(f"the page number {page_number} is {page}")
